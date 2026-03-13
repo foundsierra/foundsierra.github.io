@@ -17,3 +17,11 @@
     align-items: left;
     padding: 10px;
     background: gold;}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+}
