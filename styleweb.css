@@ -1,4 +1,5 @@
-body{font-family:Georgia, 'Times New Roman', Times, serif}
+body{font-family:Georgia, 'Times New Roman', Times, serif;
+background-color: black;}
 .logo{width: 250px;}
 .header-container {
     display: flex;
@@ -47,3 +48,59 @@ body{font-family:Georgia, 'Times New Roman', Times, serif}
     border: 10px black;
     transform:scale(1.3)
 }
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: ivory;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 120px;
+    text-shadow: black 4px 4px 8px;
+    pointer-events: none;}
+
+    .image-overlay {
+    position: absolute;
+    width: 100vw;
+    margin: 0 auto;
+}
+.body-container {
+    display: flex;
+    flex-direction: row;
+    background: black;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    align-items: center;
+    flex-wrap: wrap;}
+.text-container {
+    width: 400px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: ivory;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+    background: lightblue;
+}
+.card-img{
+    width: 50%;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding: 10px;
+    background: gold;}
