@@ -1,53 +1,65 @@
-body{font-family:Georgia, 'Times New Roman', Times, serif;
-background-color: black;}
-.logo{width: 250px;}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+.logo {
+    width: 250px;
+}
+
 .header-container {
     display: flex;
     flex-direction: row;
     background: black;
     padding: 30px;
     align-items: center;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
+
 .button-container {
-    display:inline-flex ;
+    display: inline-flex;
     flex-direction: row;
 
 }
+
 .admission-container {
     display: flex;
     flex-direction: row;
     align-items: right;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .headerbutton:hover {
-    background-color:brown
-    ;
+    background-color: brown;
     color: ivory;
     border: 10px black;
-    transform:scale(1.3)
+    transform: scale(1.3)
 }
-.headerbutton{
-    color:black;
+
+.headerbutton {
+    color: black;
     background: ivory;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     size: 15px;
 
 }
-.admissionbutton{
-    color:black;
+
+.admissionbutton {
+    color: black;
     background: ivory;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     size: 15px;
 }
+
 .admissionbutton:hover {
-    background-color:brown
-    ;
+    background-color: brown;
     color: ivory;
     border: 10px black;
-    transform:scale(1.3)
+    transform: scale(1.3)
 }
+
 .overlay-text {
     position: absolute;
     top: 50%;
@@ -58,49 +70,94 @@ background-color: black;}
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 120px;
     text-shadow: black 4px 4px 8px;
-    pointer-events: none;}
-
-    .image-overlay {
-    position: absolute;
-    width: 100vw;
-    margin: 0 auto;
 }
+
+.image-overlay {
+    position: relative;
+    width: 100%;
+}
+
 .body-container {
     display: flex;
     flex-direction: row;
     background: black;
     padding: 30px;
     align-items: center;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
 
 .flex-container {
     display: flex;
     justify-content: center;
     gap: 3em;
     align-items: center;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+}
+
 .text-container {
     width: 400px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: ivory;
 }
-.card{
+
+.card {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid #ccc;
+    flex-direction: row;
+    align-items: right;
+    border: 1px solid white;
     padding: 10px;
     width: 100px;
     margin: 10px;
-    background: lightblue;
+    background: ivory;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
 }
-.card-img{
+
+.card-img {
     width: 50%;
 }
-.card-container{
+
+.card-container {
     display: flex;
     flex-direction: row;
     align-items: left;
     padding: 10px;
-    background: gold;}
+    background: brown;
+}
+
+.mid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background: black;
+}
+
+.mid2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background: black;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    border-radius: 20px;
+}
+
+.address {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
