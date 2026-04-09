@@ -39,24 +39,22 @@ body {
 .headerbutton {
     color: black;
     background: ivory;
-    font-size: 15px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    size: 15px;
+    size: 20px;
 
 }
 
 .admissionbutton {
-    color: black;
-    background: ivory;
-    font-size: 15px;
+    color: ivory;
+    background: brown;
+    font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    size: 15px;
+    size: 25px;
 }
 
 .admissionbutton:hover {
-    background-color: brown;
-    color: ivory;
-    border: 10px black;
+
     transform: scale(1.3)
 }
 
@@ -142,6 +140,14 @@ body {
     background: ivory;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: small;
+    background-color: pink;
+}
+
+.program-img {
+    width: 500px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: .5em;
 }
 
 .card p {
@@ -211,10 +217,10 @@ body {
 .footer {
     display: flex;
     flex-direction: row;
-    background-color: grey;
+    background-color: brown;
     align-items: center;
     justify-content: space-between;
-    color: white;
+    color: ivory;
 }
 
 .address {
@@ -255,6 +261,7 @@ details {
     background-color: ivory;
     border-radius: 1em;
 }
+
 details:hover {
     background-color: brown;
     color: ivory;
